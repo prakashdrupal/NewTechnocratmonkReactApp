@@ -14,7 +14,7 @@ class Banner extends Component {
                 <hr class="space-lg" />
                 <div class="row align-items-center" data-anima="fade-in" data-time="1000">
                     <div class="col-lg-6">
-                        <h1> SEO-focused Content Marketing That Drives Results</h1>
+                        <h1>Test SEO-focused Content Marketing That Drives Results</h1>
                         <p>
                         Marketing Strategy, Content Creation, Promotion, SEO, Social Media.- Tailored content marketing solution to suit all your needs.
                         </p>
