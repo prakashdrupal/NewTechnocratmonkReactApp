@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <nav
-        className="menu-classic menu-fixed menu-transparent menu-one-page align-right light"
+        className="menu-classic menu-fixed menu-transparent menu-one-page align-right light" id="sidebarContainer"
         data-menu-anima="fade-bottom"
         data-scroll-detect="true"
       >
@@ -24,7 +24,23 @@ class Header extends Component {
               />
             </Link>
           </div>
-          <i className="menu-btn"></i>
+          
+          <div className="openSideM">
+  <input type="checkbox" class="openSideMenu" id="openSideMenu"/>
+<label for="openSideMenu" class="sideIconToggle">
+    <div class="spinner diagonal part-1"></div>
+    <div class="spinner horizontal"></div>
+    <div class="spinner diagonal part-2"></div>
+  </label>
+
+  <div id="sideMenu">
+    <ul class="sideMenuInner">
+      <li class="active" onclick="hideSidebar()"><a href="#" data-toggle="tab">Item1</a></li>
+      <li onclick="hideSidebar()"><a href="#" data-toggle="tab">Item2</a></li>
+      <li onclick="hideSidebar()"><a href="#" data-toggle="tab">Item3</a></li>
+    </ul>
+  </div>
+</div>
           <div className="menu-cnt">
             <ul>
               <li>
